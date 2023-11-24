@@ -1,0 +1,355 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#main-body{
+    
+    background-image:url(./yama\ 2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    animation: bgChange 30s linear infinite;
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    z-index: 8;
+   
+    
+    
+    
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background-color: rgba(0, 0 ,0 ,0.6);
+}
+
+@keyframes bgChange{
+    0%{
+        background-image: url(./yama\ 2.jpeg);
+    }
+    20%{
+        background-image: url(./yama\ 2.jpeg);
+    }
+    25%{
+        background-image: url(./yama3.jpeg);
+    }
+    45%{
+        background-image: url(./yama3.jpeg);
+    }
+    50%{
+        background-image: url(./yama\ street.jpeg);
+    }
+    70%{
+        background-image: url(./yama\ street.jpeg);
+    }
+    75%{
+        background-image: url(./yama4.jpeg);
+    }
+    95%{
+        background-image: url(./yama4.jpeg);
+    }
+}
+.header-image{
+    
+    justify-content: center;
+    display: flex;
+    width: 15%;
+    z-index: 7;
+}
+.header-image img{
+    width: 20%;
+    border-radius: 40px;
+    z-index: 7;
+    margin-left: 30px;
+}
+
+header ul{
+    display: flex;
+    
+    width: 40%;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+    margin-right: 5%;
+    z-index: 7;
+}
+
+header ul a{
+    color: white;
+    text-decoration: none;
+    z-index: 6;
+    font-weight: bolder;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+    font-size: larger;
+}
+
+.menu-design{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7;
+  
+  
+}
+
+
+
+.menu-design p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 5px;
+    
+    
+    
+}
+
+
+.centre-content{
+   position: relative;
+   padding-top: 100px;
+   display: flex;
+   flex-direction: column;
+   height: 70vh;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.centre-content H1{
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.centre-content p{
+    color: white;
+    margin-top: 0;
+    font-size: large;
+    font-weight: bold;
+}
+.centre-content button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+    background-color: red;
+    font-weight: bold;
+    font-size: large;
+}
+
+.centre-content button a{
+    color: white;
+    text-decoration: none;
+}
+
+#about-page{
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    
+}
+
+.explore-content{
+    width: 40%;
+    
+}
+
+.explore-content h2{
+    text-align: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.explore-content p{
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.exploreimg1{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.exploreimg1 img{
+    width: 50%;
+    align-self: center;
+    
+}
+
+#Team{
+    display: flex;
+    flex-direction: row;
+    width: 99.7%;
+    height: 100vh;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: rgb(233, 229, 229);
+}
+
+#Team p{
+    width: 50%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+    
+}
+
+.team1{
+    width: 25%;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.team1 img{
+    width: 40%;
+    border-radius: 100px;
+}
+
+.team2{
+    width: 25%;
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.team2 img{
+    width: 40%;
+    border-radius: 100px;
+}
+
+.teamname{
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#FAQ{
+    background-color: black;
+    font-family: 'Changa', sans-serif;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    
+    
+}
+#accordion{
+    margin: 0 auto;
+    list-style: none;
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 10px;
+    color:  rgb(255, 0, 0);
+    padding: 4px;
+    border-radius: 4px;
+    
+    
+   
+    
+    
+}
+@media screen and (max-width:907px) {
+    #FAQ{
+       min-width: 220px;
+    }
+}
+
+
+#accordion li{
+    color:  rgb(234, 222, 222);
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 3px;
+    
+}
+
+
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+    
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color:  rgb(255, 0, 0)
+}
+
+#accordion label + input[type="radio"]{
+    display: none;
+}
+
+#accordion .contents{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+#accordion label + input[type="radio"]:checked + .contents{
+    max-height: 500px;
+}
